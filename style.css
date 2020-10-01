@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.smartwatch {
+  height: 80vh;
+  width: 25%;
+  margin: 12rem auto;
+  position: relative;
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.smartwatch_innerpart {
+  height: 65vh;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  border-radius: 10rem;
+  font-size: 10rem;
+}
+.smartwatch_outer {
+  height: 75vh;
+  width: 100%;
+  position: relative;
+  background-color: grey;
+  top: -3rem;
+  border-radius: 10rem;
+}
+
+.smartwatch_innerpart-text2 {
+  position: absolute;
+  z-index: 10;
+  left: 07rem;
+  top: 15rem;
+  color: white;
+}
+
+.smartwatch_innerpart-text1 {
+  font-size: 2rem;
+  position: absolute;
+  z-index: 10;
+  left: 14rem;
+  top: 2rem;
+  color: white;
+}
+
+.smartwatch_innerpart-images-flex {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+}
+
+.padding {
+  margin: 2rem;
+  cursor: pointer;
+}
+.smartwatch_sms {
+  height: 25rem;
+  width: 25rem;
+  z-index: 20;
+  position: absolute;
+  top: 5rem;
+  border-radius: 5rem;
+  left: 3rem;
+  /* padding: 3rem; */
+  background-color: white;
+  word-wrap: break-word;
+  padding: 1rem 2rem;
+  visibility: hidden;
+
+  /* justify-content: space-between; */
+}
+
+.padding2 {
+  padding-bottom: 5rem;
+  padding-top: 1.5rem;
+
+  /* word-wrap: break-word; */
+}
+/* screen for SMS */
+/*
+.smartwatch_sms {
+  height: 25rem;
+  width: 80%;
+  position: absolute;
+  left: 3rem;
+  top: 5rem;
+  border-radius: 7rem;
+  background-color: white;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 3rem;
+  flex-direction: column;
+  visibility: hidden;
+  flex-wrap: wrap;
+
+  overflow: hidden;
+  overflow: auto; */
+/* overflow-wrap: break-word;
+  overflow: auto;
+}*/
+
+/*
+.smartwatch_sms div {
+  padding: 2.5rem 1rem;
+  width: 100%;
+  border-bottom: 01px solid black;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+*/
